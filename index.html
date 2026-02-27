@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة Bazaar للمواد الغذائية - العراق</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="root">
+        <div style="display:flex;align-items:center;justify-content:center;height:100vh;flex-direction:column;gap:1rem;font-family:Arial;direction:rtl">
+            <div style="font-size:3rem">🛒</div>
+            <div style="font-size:1.5rem;color:#2c5f2d;font-weight:bold">منصة Bazaar</div>
+            <div style="color:#666">جاري التحميل...</div>
+        </div>
+    </div>
+
+    <!-- المكتبات الأساسية -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@zxing/library@latest"></script>
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- إعداد Supabase والدوال المساعدة -->
+    <script src="js/utils.js"></script>
+
+    <!-- الكود المترجم مسبقاً (بدون Babel في المتصفح) -->
+    <script src="js/bazaar-compiled.js"></script>
+</body>
+</html>
