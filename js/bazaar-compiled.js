@@ -44,7 +44,7 @@ const printSinglePay=pay=>{const statusLabel=pay.status==='approved'?'موافَ
                                             .footer{text-align:center;color:#999;font-size:0.85rem;margin-top:2rem;border-top:1px solid #eee;padding-top:1rem}
                                             @media print{button{display:none}}</style></head>
                                             <body>
-                                            <div class="header"><h2>🏢 منصة B2B للمواد الغذائية</h2><p>سند تسديد عمولة</p></div>
+                                            <div class="header"><h2>🏢 منصة Bazaar للمواد الغذائية</h2><p>سند تسديد عمولة</p></div>
                                             <div class="amount-box"><div style="color:#666;margin-bottom:0.5rem">المبلغ المسدَّد</div><div class="amt">${pay.amount.toLocaleString()} د.ع</div></div>
                                             <div class="row"><span class="label">المورد</span><span class="value">${pay.supplierName}</span></div>
                                             <div class="row"><span class="label">تاريخ التسديد</span><span class="value">${new Date(pay.date).toLocaleDateString('ar-IQ')}</span></div>
